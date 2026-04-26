@@ -6,6 +6,11 @@
 This assignment is a network forensics and performance analysis of the fictional company BoredGames, which reported consistently slow application loading, slow file transfers to the internal file server, and sluggish internet browsing. The analysis uses real packet capture data (A1_Bad_Packets.pcapng) examined through Wireshark to identify root causes using the OSI model as a troubleshooting framework.
 
 
+📁 Repository structure: 
+CP2409_Assignment_1.pdf # Full written report
+A1_Bad_Packets.pcapng # Wireshark capture packet
+
+
 🔍 Tools Used
 ToolPurposeWiresharkPrimary packet capture and analysis toolWireshark Expert InfoDetected TCP warnings (Zero Window, RST, out-of-order)Wireshark I/O GraphsVisualised error bursts and throughput over timeWireshark ConversationsIdentified single TCP stream between 10.0.52.164 ↔ 61.8.0.17Protocol HierarchyConfirmed TCP/IPv4 dominance; minimal HTTP traffic
 
