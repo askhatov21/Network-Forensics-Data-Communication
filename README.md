@@ -8,6 +8,7 @@ This assignment is a network forensics and performance analysis of the fictional
 
 📁 Repository structure: 
 CP2409_Assignment_1.pdf # Full written report
+
 A1_Bad_Packets.pcapng # Wireshark capture packet
 
 
